@@ -50,6 +50,28 @@
     <!-- To add other attributes for an element, use [], type 'img[src="./bird.png" alt="bird-picture"]' -->
     <img src="./bird.png" alt="bird-picture">
 
+    <!-- Climbling and grouping elements to remove confusion of levels, use '^' or '()', type 'section.first>h1+div.fly-pic>img[src="fly.png"]^p.caption' -->
+    <section class="first">
+      <h1></h1>
+      <div class="fly-pic">
+        <img src="fly.png" alt="">
+      </div>
+      <p class="caption"></p>
+    </section>
+    <!-- OR, (same code as above, but different syntax, type 'section.first>h1+(div.fly-pic>img[src="fly.png"])+p.caption') -->
+    <section class="first">
+      <h1></h1>
+      <div class="fly-pic">
+        <img src="fly.png" alt="">
+      </div>
+      <p class="caption"></p>
+    </section>
+
+
+
+
+
+
 
   </body>
 </html>
